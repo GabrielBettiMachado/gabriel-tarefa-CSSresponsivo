@@ -44,28 +44,6 @@ footer {
     width: 100%;
 }
 
-header form {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-}
-
-header form input {
-    padding: 5px;
-    border: none;
-    border-radius: 4px;
-    color: #333;
-    margin-right: 8px;
-}
-
-header form button {
-    padding: 5px;
-    border: none;
-    border-radius: 4px;
-    background-color: indianred;
-    color: #fff;
-}
-
 footer {
     background-color: indianred;
     color: #fff;
