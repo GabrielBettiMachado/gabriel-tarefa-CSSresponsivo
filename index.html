@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>WG SHOP</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>WG SHOP</h1>
+            <form>
+                <input type="search" placeholder="Buscar no site">
+                <button type="submit">Pesquisar</button>
+            </form>
+            <div class="botao-menu">
+                <button type="button" aria-label="Abrir menu">Abrir menu</button>
+            </div>
+        </div>
+        <nav class="container">
+            <div>
+                <ul class="menu">
+                    <li>
+                        <a href="#Sobre-a-loja">Sobre a loja</a>
+                    </li>
+                    <li>
+                        <a href="#produtos">Produtos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="Sobre-a-loja">
+        <div class="container container-flex">
+            <img src="https://picsum.photos/300/300" alt="imagem exemplo">
+            <div>
+                <h2>Sobre a WG SHOP</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis quae, aliquam excepturi voluptas enim maxime qui, totam quibusdam ipsum libero fugiat est eos recusandae, dolorum debitis iste ipsa porro nobis.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat reprehenderit dolores suscipit perferendis, nisi odio aliquid tenetur et praesentium asperiores atque, delectus ut molestiae! Temporibus, voluptatum nesciunt. Inventore, et eligendi!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam magni alias ipsa illum, esse quam sunt fugiat! Asperiores explicabo facere similique dolore, nisi accusantium cum magnam, omnis voluptatem eaque doloremque.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <h2>Produtos</h2>
+        <div class="artigos">
+            <article class="produtos">
+                <img src="https://picsum.photos/300/300" alt="imagem exemplo">
+                    <h3>Imagem exemplo</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                <button>Adicionar ao carrinho</button>
+            </article>
+            <article class="produtos">
+                <img src="https://picsum.photos/300/300" alt="imagem exemplo">
+                    <h3>Imagem exemplo</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </p>
+                <button>Adicionar ao carrinho</button>
+            </article>
+            <article class="produtos">
+                <img src="https://picsum.photos/300/300" alt="imagem exemplo">
+                    <h3>Imagem exemplo</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </p>
+                <button>Adicionar ao carrinho</button>
+            </article>
+            <article class="produtos">
+                <img src="https://picsum.photos/300/300" alt="imagem exemplo">
+                    <h3>Imagem exemplo</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </p>
+                    <button>Adicionar ao carrinho</button>
+            </article>
+        </div>
+    </section>
+    <footer class="footer-container">
+        <div class="container container-flex">
+            <p>
+                2025 &copy; WG SHOP - Todos direitos reservados
+            </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+</script>
+<script>
+    $(document).ready(function() {
+    $('.botao-menu button').click(function() {
+        $('.menu').stop(true, true).slideToggle(300); 
+    });
+});
+
+
+</script>
+</body>
+</html>
